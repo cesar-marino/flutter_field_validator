@@ -1,4 +1,4 @@
-import 'package:flutter_field_validator/src/errors/errors.dart';
+import '../errors/errors.dart';
 
 class MinLengthValidator {
   final String _field;

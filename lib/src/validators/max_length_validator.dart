@@ -1,4 +1,4 @@
-import 'package:flutter_field_validator/src/errors/errors.dart';
+import '../errors/errors.dart';
 
 class MaxLengthValidator {
   final String _field;
