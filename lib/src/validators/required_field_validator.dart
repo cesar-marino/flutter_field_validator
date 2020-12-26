@@ -6,6 +6,6 @@ class RequiredFieldValidator {
   RequiredFieldValidator(this._field);
 
   FieldError validate() {
-    return _field == null ? FieldError.requiredField : null;
+    return _field?.isNotEmpty != true ? FieldError.requiredField : null;
   }
 }
